@@ -86,9 +86,7 @@
 
    not only that but also i have included **a link that which redirect the page to the git hub as mentioned in the section 1** 
 
-   ![Screenshot_6](images/p6.png)
-   
-   ![Screenshot_7](images/p7.png)
+
    
    
    later on for the joke api the joke will change for every one min.
@@ -116,13 +114,13 @@
 
    the data of the cookies is stored in the sub strip of javascript file.
 
-   ![Screenshot_12](images/p.png)
+   ![Screenshot_12](images/p8.png)
 
-   ![Screenshot_13](images/p.png)
+   ![Screenshot_13](images/p1.png)
 
-   ![Screenshot_14](images/p.png)
-
-   ![Screenshot_15](images/p.png)
+   ![Screenshot_14](images/p6.png)
+   
+   ![Screenshot_15](images/p7.png)
 
 
    
