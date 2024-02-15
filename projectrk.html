@@ -198,6 +198,29 @@ Pidugunn  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery
       font-size: 150px;
     }
   }
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
   </style>
 </head>
   
@@ -216,13 +239,14 @@ Pidugunn  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT</a></li>
-        <li><a href="#siemens">TARGETED COMPANY</a></li>
+        <li><a href="#Snowflake">TARGETED COMPANY</a></li>
         <li><a href="#education">EDUCATION</a></li>
         <li><a href="#experience">EXPERIENCE</a></li>
         <li><a href="#skills">SKILLS</a></li>
         <li><a href="#projects">PROJECTS</a></li>
         <li><a href="#certifications">CERTIFICATIONS</a></li>
         <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#WAPH">CONTACT</a></li>
       </ul>
     </div>
   </div>
@@ -400,6 +424,18 @@ Pidugunn  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery
   </div>
 </div>
 
+<!-- WAPH -->
+<div id="WAPH" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <button type="button" class="collapsible">WAPH-Koppulrh</button>
+      <a href=""></a>
+    
+     
+    </div>
+  </div>
+</div>
+
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
@@ -443,6 +479,47 @@ $(document).ready(function(){
   });
 })
 </script>
+<script>
+  // cookie with the current date/time
+  function setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "") + expires + "; path=/";
+  }
 
+  //cookie
+  function getCookie(name) {
+    var nameEQ = name + "=";
+    var cookies = document.cookie.split(';');
+    for (var i = 0; i < cookies.length; i++) {
+      var cookie = cookies[i];
+      while (cookie.charAt(0) == ' ') {
+        cookie = cookie.substring(1, cookie.length);
+      }
+      if (cookie.indexOf(nameEQ) == 0) {
+        return cookie.substring(nameEQ.length, cookie.length);
+      }
+    }
+    return null;
+  }
+
+  // welcome message
+  function displayWelcomeMessage() {
+    var lastVisit = getCookie("lastVisit");
+    if (lastVisit) {
+      alert("Welcome back! Your last visit was " + lastVisit);
+    } else {
+      setCookie("lastVisit", new Date(), 365);
+      alert("Welcome to my homepage!");
+    }
+  }
+
+  //display 
+  displayWelcomeMessage();
+</script>
 </body>
 </html>
