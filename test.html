@@ -149,6 +149,62 @@ a:hover, .button:hover {
 					</script>
 				</div>
 				<hr>
+				<div>
+					<h2>Current Weather</h2>
+					<div id="weather-info">
+						<!-- Weather data will be displayed here -->
+					  </div>
+					<div>
+						<script>
+  
+							const apiKey = 'cb388c42c8154dc1a25190f00185f145';
+							const apiUrl = 'https://api.weatherbit.io/v2.0/current?key=${apiKey}&city=cincinnati';
+						  
+							
+							fetch(apiUrl)
+							  .then(response => response.json())
+							  .then(data => {
+								
+								const weather = data.data[0];
+								const temperature = weather.temp;
+								const description = weather.weather.description;
+						  
+							
+								document.getElementById('weather-info').innerHTML = `
+								  <p>Temperature: ${temperature}°C</p>
+								  <p>Description: ${description}</p>
+								`;
+							  })
+							  .catch(error => {
+								console.error('Error fetching weather data:', error);
+							  });
+						  </script>
+
+					</div>
+				</div>
+				<hr>
+				<div>
+					<h2>Course Outcomes</h2>
+					<h3>Lab-1</h3>
+					<p>from Lab 1 i got to know about the Wireshark tool and web development and also i got to know about the hypertext transfer protocol.
+		
+						made some basic programing like hello world in html. used telnet to remotely access a web page via a port. used CGI web application in c and later created hello world and echo php program 
+						
+						the echo program I have created extracts data form the user request and displays it in the web page with the help of this i understand about get and post request. not only that but I also understand that it is vulnerable to SQL injections and xss attacks. And also used Curl to send http request form command prompt to web server.  
+						</p>
+					<h3>Lab-2</h3>
+					<p>In this lab at first we deal with basic html tags and webpage development
+						programming and also got some hands-on exprience with javaScript and altered
+						the html page style with css also used Asynchronous javaScript and xml and
+						jquery programming Approach web API integrations</p>
+					<h3>Hackathon-1</h3>
+					<p>in this module we have learned about XSS injection attack and implemented this attack on a webpage. we have also implemented the defense mechanism for our html and echo files that we have created on lab2 and lab1 respectively. for defense we have included a validate function and encode function which checks and encode the user input and prevent attacks.
+		
+						so, the hackathon is okay.</p>
+				</div>					
+				</div>
+			</div>
+		</div>
 			</div>
 		</div>
 	</div>
