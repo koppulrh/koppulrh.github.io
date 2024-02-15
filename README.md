@@ -53,7 +53,7 @@
 
  ![Screenshot_1](images/p1.png)
 
-  ![Screenshot_2](../../images/p2.png)
+  ![Screenshot_2](images/p2.png)
 
 
   **Section_2**
@@ -64,13 +64,13 @@
 
   so as i have made several changes to the bootstrap page i have created my professional page and with the help nof this tracker i have checked the visitor count from my webpage.
 
-   ![Screenshot_3](../../images/p3.png)
+   ![Screenshot_3](images/p3.png)
 
-   ![Screenshot_3.1](../../images/p3.1.png)
+   ![Screenshot_3.1](images/p3.1.png)
 
-   ![Screenshot_4](../../images/p4.png)
+   ![Screenshot_4](images/p4.png)
 
-   ![Screenshot_5](../../images/p5.png)
+   ![Screenshot_5](images/p5.png)
 
    **Section_3**
 
@@ -86,24 +86,24 @@
 
    not only that but also i have included **a link that which redirect the page to the git hub as mentioned in the section 1** 
 
-   ![Screenshot_6](../../images/p6.png)
+   ![Screenshot_6](images/p6.png)
    
-   ![Screenshot_7](../../images/p7.png)
+   ![Screenshot_7](images/p7.png)
    
    
    later on for the joke api the joke will change for every one min.
 
 
-   ![Screenshot_8](../../images/p.png)
+   ![Screenshot_8](images/p.png)
 
-   ![Screenshot_9](../../images/p.png)
+   ![Screenshot_9](images/p.png)
 
 
    for the graphic part i have created a weather forcast of cincinatti with the help of thsi weather api i have integrated into the html page and displaued temperature. 
 
-   ![Screenshot_10](../../images/p.png)
+   ![Screenshot_10](images/p.png)
    
-   ![Screenshot_11](../../images/p.png)
+   ![Screenshot_11](images/p.png)
 
 
    Finally i have wrote a code to remmber the cookies of the site.
@@ -116,13 +116,13 @@
 
    the data of the cookies is stored in the sub strip of javascript file.
 
-   ![Screenshot_12](../../images/p.png)
+   ![Screenshot_12](images/p.png)
 
-   ![Screenshot_13](../../images/p.png)
+   ![Screenshot_13](images/p.png)
 
-   ![Screenshot_14](../../images/p.png)
+   ![Screenshot_14](images/p.png)
 
-   ![Screenshot_15](../../images/p.png)
+   ![Screenshot_15](images/p.png)
 
 
    
