@@ -51,7 +51,7 @@
  for the professor given website i have made changes and added about, targeted company, education, work exprience, contact info, projects, course link.
 
 
- ![Screenshot_1](../../images/p1.png)
+ ![Screenshot_1](images/p1.png)
 
   ![Screenshot_2](../../images/p2.png)
 
