@@ -133,13 +133,14 @@ a:hover, .button:hover {
 					<input class="button round" type="button" value="guess Age" onclick="guessAge($('#data').val())">
 					<div id="response"></div>
 					<script>
-						
+						function fetchjoke(){
 						$.get("https://v2.jokeapi.dev/joke/Programming?type=single",
 							function(result){
 								console.log("From jokeAPI: " + JSON.stringify(result));
 								$("#response").html("A programming joke of the day: "+result.joke);
-							});
-
+							});}
+                              fetchjoke();
+							  setInterval(fetchjoke,60000)
 						async function guessAge(name){
 							const response = await fetch("https://api.agify.io/?name="+name);
 							const result = await response.json();
