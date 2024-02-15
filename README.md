@@ -114,13 +114,14 @@
 
    the data of the cookies is stored in the sub strip of javascript file.
 
-   ![Screenshot_12](images/p8.png)
 
    ![Screenshot_13](images/p1.png)
 
    ![Screenshot_14](images/p6.png)
    
    ![Screenshot_15](images/p7.png)
+
+   ![Screenshot_12](images/p8.png)
 
 
    
