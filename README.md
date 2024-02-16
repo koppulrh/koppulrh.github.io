@@ -94,7 +94,7 @@
    later on for the joke api the joke will change for every one min.
 
 
-    ![Screenshot_10](images/p13.png)
+   ![Screenshot_10](images/p13.png)
 
    ![Screenshot_9](images/p12.png)
 
