@@ -86,23 +86,23 @@
 
    not only that but also i have included **a link that which redirect the page to the git hub as mentioned in the section 1** 
 
+   ![Screenshot_8](images/p9.png)
 
+   ![Screenshot_9](images/p10.png)
    
    
    later on for the joke api the joke will change for every one min.
 
 
-   ![Screenshot_8](images/p.png)
+   ![Screenshot_8](images/p11.png)
 
-   ![Screenshot_9](images/p.png)
+   ![Screenshot_9](images/p12.png)
 
 
    for the graphic part i have created a weather forcast of cincinatti with the help of thsi weather api i have integrated into the html page and displaued temperature. 
 
-   ![Screenshot_10](images/p.png)
+   ![Screenshot_10](images/p13.png)
    
-   ![Screenshot_11](images/p.png)
-
 
    Finally i have wrote a code to remmber the cookies of the site.
 
