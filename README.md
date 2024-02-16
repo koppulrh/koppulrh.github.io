@@ -12,7 +12,7 @@
 **Short-bio**:I am enthusiastic about learning web applications and ethical hacking since 
  I am new to this course.
 
-![Headshot](../../images/my_image.png)
+![Headshot](images/my_image.png)
 
 
 
